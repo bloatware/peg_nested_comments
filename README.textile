@@ -42,7 +42,7 @@ Use @.peg_replyto_active@ and @.peg_replyto_inactive@ classes to to hide or alte
 
 h5. Exemples
 
-Blur the content…
+Blur the content on simple comment (not a reply)…
 
 bc.. .peg_replyto_inactive {
 	opacity: 0.6; }
