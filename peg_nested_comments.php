@@ -140,7 +140,7 @@ function peg_reply_to($atts) {
 	$reply_to_input = htmlspecialchars(ps('peg_replyto_input'));
 
 	return 
-	'<span id="peg_replyto_wrap" style="'.($reply_to?'':'display:none').'">'.n.
+	'<span id="peg_replyto_wrap" class="'.($reply_to?'peg_replyto_active':'peg_replyto_inactive').'">'.n.
 	'<label for="peg_replyto_input" id="peg_replyto_label">'.$label.'</label><input type="text" name="peg_replyto_input" id="peg_replyto_input" value="'.$reply_to_input.'" readonly="readonly" size="'.$size.'" /><input type="hidden" name="peg_replyto" id="peg_replyto" value="'.$reply_to.'" />'.n.	  	
   	($back ? '<a id="peg_replyto_backlink" href='.($reply_to?"#c$reply_to":"#").'>'.$back.'</a>' : '').n.
   	($close ? '<a id="peg_replyto_closelink" href="#peg_replyto_input" title="Empty" onclick="return peg_selectComment(null,null,null,this);">'.$close.'</a>' : '').'</span>'.n.
@@ -154,7 +154,7 @@ function peg_reply_to($atts) {
 
 			if(pegSelect) pegSelect.value = discussid;
 			if(pegSelectWrap) {
-				pegSelectWrap.setAttribute("style", discussid?"":"display:none");
+				pegSelectWrap.className = (discussid?"peg_replyto_active":"peg_replyto_inactive");
 			}
 			if(pegSelectInput) {
 				pegSelectInput.value = (name?name:"");
