@@ -38,7 +38,7 @@ finally, insert @<txp:peg_reply_to />@ somewhere in comment_form.
 
 h4. Styling
 
-Use @.peg_replyto_active@ and @.peg_replyto_inactive@ classes to to hide or alter the display of tag content.
+Use @.peg_replyto_active@ and @.peg_replyto_inactive@ classes to to hide or alter the display of this tag content in your comment form. @.peg_replyto_active@ is used on reply, @.peg_replyto_inactive@ on simple comment.
 
 h2. Authors/credits
 
