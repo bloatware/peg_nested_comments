@@ -40,6 +40,23 @@ h4. Styling
 
 Use @.peg_replyto_active@ and @.peg_replyto_inactive@ classes to to hide or alter the display of this tag content in your comment form. @.peg_replyto_active@ is used on reply, @.peg_replyto_inactive@ on simple comment.
 
+h5. Exemples
+
+Blur the content…
+
+bc.. .peg_replyto_inactive {
+	opacity: 0.6; }
+
+p. …or hide it with…
+
+bc.. .peg_replyto_inactive {
+	display: none; }
+
+p. …or…
+
+bc.. .peg_replyto_inactive {
+	visibility: hidden; }
+
 h2. Authors/credits
 
 Made Txp4.5 compatible by "Oleg Loukianov":http://www.iut-fbleau.fr/projet/etc/ from a Margaret Trauth's code.
