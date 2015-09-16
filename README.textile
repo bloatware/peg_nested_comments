@@ -1,0 +1,52 @@
+h1. etc_pagination
+
+This Textpattern plugin creates a paginated navigation bar similar to those seen on Google when you search for something. It has a wide variety of attributes - so you are able to customise it until you drop! It can be used alone for @<txp:article />@ and @<txp:article_custom />@ pagination, but it also has the ability to paginate any list, with a little help from "etc_query":http://www.iut-fbleau.fr/projet/etc/index.php?id=3.
+
+Please report bugs and problems with this plugin at "the GitHub project's issues page":https://github.com/bloatware/etc-pagination/issues.
+
+p(alert-block information). Note that this plugin creates a list that is meant to be _styled by you_ using CSS.
+
+h2. Installation, upgrading and uninstallation
+
+Download the latest version of the plugin, paste the code into the Textpattern Admin → Plugins panel, install and enable the plugin.
+
+To uninstall, delete from the Admin → Plugins panel.
+
+h2. Tags
+
+h3. peg_comments tag
+
+bc. <txp:peg_comments />
+
+In comments_display, replace your @<txp:comments />@ with @<txp:peg_comments />@. 
+
+h4. Attributes
+
+the attributes are the same as <txp:comments />.
+
+h3. peg_child_comments tag
+
+bc. <txp:peg_child_comments />
+
+in comments, add @<txp:peg_child_comments />@ at the end. Duplicate whatever attributes you used for @<txp:peg_comments />@.
+
+h3. peg_reply_link tag
+
+bc. <txp:peg_reply_link />
+
+Also add @<txp:peg_reply_link />@ wherever you see fit; this generates the link to reply to the comment.
+
+h3. peg_reply_to tag
+
+bc. <txp:peg_reply_to />
+
+finally, insert @<txp:peg_reply_to />@ somewhere in comment_form.
+
+h2. History
+
+Please see the "changelog on GitHub":https://github.com/bloatware/peg_nested_comments/blob/master/CHANGELOG.textile.
+
+h2. Authors/credits
+
+Made Txp4.5 compatible by "Oleg Loukianov":http://www.iut-fbleau.fr/projet/etc/ from a Margaret Trauth's code.
+Many thanks to "all additional contributors":https://github.com/bloatware/peg_nested_comments/graphs/contributors.
