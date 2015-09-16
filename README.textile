@@ -38,24 +38,21 @@ finally, insert @<txp:peg_reply_to />@ somewhere in comment_form.
 
 h4. Styling
 
-Use @.peg_replyto_active@ and @.peg_replyto_inactive@ classes to to hide or alter the display of this tag content in your comment form. @.peg_replyto_active@ is used on reply, @.peg_replyto_inactive@ on simple comment.
+Use @.peg_replyto_active@ and @.peg_replyto_inactive@ classes to to hide or alter the display of this tag content in your comment form. @.peg_replyto_active@ is used on reply, @.peg_replyto_inactive@ on simple comment; the second one should be enough to do the following.
 
 h5. Exemples
 
 Blur the content on simple comment (not a reply)…
 
-bc.. .peg_replyto_inactive {
-	opacity: 0.6; }
+bc. .peg_replyto_inactive { opacity: 0.6; }
 
-p. …or hide it with…
+…or hide it with…
 
-bc.. .peg_replyto_inactive {
-	display: none; }
+bc. .peg_replyto_inactive { display: none; }
 
-p. …or…
+…or…
 
-bc.. .peg_replyto_inactive {
-	visibility: hidden; }
+bc. .peg_replyto_inactive { visibility: hidden; }
 
 h2. Authors/credits
 
