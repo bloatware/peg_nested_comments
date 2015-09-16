@@ -23,7 +23,7 @@ h3. peg_child_comments tag
 
 bc. <txp:peg_child_comments />
 
-in comments, add @<txp:peg_child_comments />@ at the end. Duplicate whatever attributes you used for @<txp:peg_comments />@.
+in your @comments@ form, add @<txp:peg_child_comments />@ at the end. Duplicate whatever attributes you used for @<txp:peg_comments />@.
 
 h3. peg_reply_link tag
 
@@ -35,7 +35,7 @@ h3. peg_reply_to tag
 
 bc. <txp:peg_reply_to />
 
-finally, insert @<txp:peg_reply_to />@ somewhere in comment_form.
+finally, insert @<txp:peg_reply_to />@ somewhere in your @comment_form@ form.
 
 h4. Attributes
 
