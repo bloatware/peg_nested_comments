@@ -36,9 +36,9 @@ bc. <txp:peg_reply_to />
 
 finally, insert @<txp:peg_reply_to />@ somewhere in comment_form.
 
-h2. History
+h4. Styling
 
-Please see the "changelog on GitHub":https://github.com/bloatware/peg_nested_comments/blob/master/CHANGELOG.textile.
+Use @.peg_replyto_active@ and @.peg_replyto_inactive@ classes to to hide or alter the display of tag content.
 
 h2. Authors/credits
 
