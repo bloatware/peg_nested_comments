@@ -16,7 +16,8 @@ In comments_display, replace your @<txp:comments />@ with @<txp:peg_comments />@
 
 h4. Attributes
 
-the attributes are the same as @<txp:comments />@.
+Attributes are the same as @<txp:comments />@.
+See "here":http://www.textpattern.net/wiki/index.php?title=comments for more informations.
 
 h3. peg_child_comments tag
 
@@ -35,6 +36,16 @@ h3. peg_reply_to tag
 bc. <txp:peg_reply_to />
 
 finally, insert @<txp:peg_reply_to />@ somewhere in comment_form.
+
+h4. Attributes
+
+* @label:"Your label"@ _(default: Replying to)_
+** used as the value of the @<label>@ HTML tag;
+* @back:"See the original comment"@ _(default: #)_
+** used as a link to the comment you are replying to;
+* @close:"Unchain"@ _(default: ×)_
+** used as for link which allow to break the link to the comment you were replying to;
+** add the @.peg_replyto_inactive@ to #peg_replyto_wrap.
 
 h4. Styling
 
