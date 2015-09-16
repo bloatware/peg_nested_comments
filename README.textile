@@ -12,7 +12,7 @@ h3. peg_comments tag
 
 bc. <txp:peg_comments />
 
-In comments_display, replace your @<txp:comments />@ with @<txp:peg_comments />@. 
+In the @comments_display@ form, replace your @<txp:comments />@ with @<txp:peg_comments />@. 
 
 h4. Attributes
 
@@ -39,11 +39,11 @@ finally, insert @<txp:peg_reply_to />@ somewhere in comment_form.
 
 h4. Attributes
 
-* @label:"Your label"@ _(default: Replying to)_
+* @label="Your label"@ _(default: Replying to)_
 ** used as the value of the @<label>@ HTML tag;
-* @back:"See the original comment"@ _(default: #)_
+* @back="See the original comment"@ _(default: #)_
 ** used as a link to the comment you are replying to;
-* @close:"Unchain"@ _(default: ×)_
+* @close="Unchain"@ _(default: ×)_
 ** used as for link which allow to break the link to the comment you were replying to;
 ** add the @.peg_replyto_inactive@ to #peg_replyto_wrap.
 
