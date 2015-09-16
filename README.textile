@@ -16,7 +16,7 @@ In comments_display, replace your @<txp:comments />@ with @<txp:peg_comments />@
 
 h4. Attributes
 
-the attributes are the same as <txp:comments />.
+the attributes are the same as @<txp:comments />@.
 
 h3. peg_child_comments tag
 
