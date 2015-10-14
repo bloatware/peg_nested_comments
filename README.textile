@@ -39,6 +39,10 @@ finally, insert @<txp:peg_reply_to />@ somewhere in your @comment_form@ form.
 
 h4. Attributes
 
+* @wraptag="span"@  _(default: span)_
+** used to wrap the generated label, input and links;
+* @class=""@
+** applied to the wraptag;
 * @label="Your label"@ _(default: Replying to)_
 ** used as the value of the @<label>@ HTML tag;
 * @back="Go the initial comment"@ _(default: #)_
